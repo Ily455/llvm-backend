@@ -18,6 +18,18 @@ copy_files() {
         return
     fi
 
+    if [[ "$src" == *"/reword.sh"* ]]; then
+        return
+    fi
+
+    if [[ "$src" == *"/rename.sh"* ]]; then
+        return
+    fi
+    
+    if [[ "$src" == *"/copy.sh"* ]]; then
+        return
+    fi
+
     # Copy file or folder to destination
     cp -r "$src" "$dest"
 }
