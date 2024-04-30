@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Check if the directory argument is provided
+if [ $# -eq 0 ]; then
+  echo "Usage: $0 <directory>"
+  exit 1
+fi
+
 # Directory containing the files
-directory="./llvm/lib/Target/RISCW/TargetInfo"
+directory="$1"
 
 # Check if the directory exists
 if [ ! -d "$directory" ]; then

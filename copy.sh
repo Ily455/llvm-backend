@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the paths to folders A and B
-folderB="/home/ubuntu/llvm-backend/llvm-project-new-backend"
+folderB="/home/ubuntu/llvm-backend/llvm-project"
 folderA="/home/ubuntu/llvm-backend/llvm-backend-core"
 
 # Function to copy files and folders from folder A to folder B

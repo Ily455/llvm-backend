@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory to search for files
-directory="/home/ubuntu/llvm-backend/llvm-backend"
+directory="/home/ubuntu/llvm-backend/llvm-project/clang/lib/Basic/Targets"
 
 # Check if the directory exists
 if [ ! -d "$directory" ]; then
